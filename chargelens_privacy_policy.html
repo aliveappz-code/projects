@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – ChargeLens: Charge Speed Test</title>
+<meta name="description" content="Privacy Policy for ChargeLens: Charge Speed Test, an Android app by AliveAppz that measures charging speed and battery health.">
+<!--
+  BEFORE YOU PUBLISH (delete this comment afterwards):
+  1. (Done) The contact email is aliveappz@gmail.com. Make sure you read that inbox.
+  2. Host this file at a public https URL (GitHub Pages, Netlify, your own site) and paste that URL into
+     Play Console > App content > Privacy policy. It must be a normal web page, not a PDF or a login page.
+  3. The app asks for ad consent with Google's User Messaging Platform and this policy says so. For that form to
+     appear you must create it in AdMob (Privacy & messaging) for your real app ID; until then it cannot show.
+  4. If you add analytics, crash reporting, sign-in, cloud sync or in-app purchases, update sections 2 to 5.
+-->
+<style>
+  :root {
+    --bg: #ffffff; --fg: #17201a; --muted: #5a6a5f; --line: #dfe6e0;
+    --card: #f5f8f5; --accent: #2f8a12; --accent-bg: #e7f6dd; --warn-bg: #fff3b8; --warn-fg: #6b5200;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0f0c; --fg: #e8efe9; --muted: #9bab9f; --line: #25302a;
+      --card: #121a14; --accent: #b6ff3b; --accent-bg: #1c2a12; --warn-bg: #4a3d00; --warn-fg: #ffe27a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 72px; }
+  header { padding-bottom: 20px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+  .brand { display: inline-block; font-weight: 700; letter-spacing: .2px; color: var(--accent); margin-bottom: 8px; }
+  h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); line-height: 1.2; margin: 0 0 10px; }
+  h2 { font-size: 1.3rem; margin: 40px 0 10px; line-height: 1.3; scroll-margin-top: 16px; }
+  h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+  p, ul, ol { margin: 0 0 14px; }
+  ul, ol { padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: .95rem; margin: 0; }
+  .summary { background: var(--accent-bg); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 22px 0; }
+  .summary h2 { margin-top: 0; font-size: 1.1rem; }
+  .summary ul { margin-bottom: 0; }
+  nav.toc { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; margin: 22px 0; }
+  nav.toc ol { margin: 6px 0 0; columns: 2; column-gap: 28px; }
+  nav.toc li { break-inside: avoid; }
+  @media (max-width: 560px) { nav.toc ol { columns: 1; } }
+  .table-wrap { overflow-x: auto; margin: 10px 0 18px; border: 1px solid var(--line); border-radius: 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: .94rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { background: var(--card); font-weight: 650; }
+  tr:last-child td { border-bottom: 0; }
+
+  @media (max-width: 640px) {
+    .table-wrap { border: 0; overflow: visible; }
+    table, thead, tbody, tr, th, td { display: block; }
+    thead { position: absolute; left: -9999px; }
+    tr { border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; background: var(--card); overflow: hidden; }
+    tr:last-child td { border-bottom: 1px solid var(--line); }
+    td { border-bottom: 1px solid var(--line); padding: 10px 14px; }
+    td:last-child { border-bottom: 0 !important; }
+    td::before { content: attr(data-label); display: block; font-size: .78rem; font-weight: 650; letter-spacing: .3px; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+    td:first-child { background: var(--bg); }
+  }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: .9em; }
+  .todo { background: var(--warn-bg); color: var(--warn-fg); padding: 1px 6px; border-radius: 6px; font-weight: 600; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <span class="brand">ChargeLens</span>
+  <h1>Privacy Policy</h1>
+  <p class="meta"><strong>App:</strong> ChargeLens: Charge Speed Test (Android, package <code>com.aliveappz.chargelens</code>)<br>
+  <strong>Developer:</strong> AliveAppz<br>
+  <strong>Effective date:</strong> 13 November 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> 13 November 2026</p>
+</header>
+
+<p>This policy explains what information ChargeLens: Charge Speed Test ("<strong>ChargeLens</strong>", "the app", "we", "us") uses, where it goes, and the choices you have. We wrote it in plain language. If something is unclear, please <a href="#contact">contact us</a>.</p>
+
+<section class="summary" aria-label="Summary">
+  <h2>The short version</h2>
+  <ul>
+    <li><strong>No account, no sign-up.</strong> You never give us your name, email or phone number to use the app.</li>
+    <li><strong>Your battery data stays on your phone.</strong> Charging speed, history, cable tests and settings are stored on your device. We run no servers that receive them.</li>
+    <li><strong>We do not sell your data</strong> and we do not use analytics or crash-reporting tools of our own.</li>
+    <li><strong>The app shows ads from Google AdMob.</strong> Google's ad software collects some device information to show and measure ads. See <a href="#ads">section 4</a>.</li>
+    <li><strong>You are in control.</strong> You can delete your history inside the app, turn off permissions at any time, or uninstall to remove everything.</li>
+  </ul>
+</section>
+
+<nav class="toc" aria-label="Contents">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#what">What ChargeLens does</a></li>
+    <li><a href="#data">Information the app uses</a></li>
+    <li><a href="#permissions">Permissions and why</a></li>
+    <li><a href="#ads">Advertising (Google AdMob)</a></li>
+    <li><a href="#sharing">Sharing and selling</a></li>
+    <li><a href="#storage">Storage, backup and deletion</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#children">Children</a></li>
+    <li><a href="#rights">Your rights and choices</a></li>
+    <li><a href="#transfers">International processing</a></li>
+    <li><a href="#changes">Changes to this policy</a></li>
+    <li><a href="#contact">Contact us</a></li>
+  </ol>
+</nav>
+
+<h2 id="what">1. What ChargeLens does</h2>
+<p>ChargeLens reads the battery information that Android makes available to apps and shows it to you: how fast your phone is charging, how long it may take to fill, battery temperature, and how your charging habits look over time. It can compare cables and chargers, record charging sessions, show an optional full-screen charging display, send charge alerts, and (if you allow it) estimate which apps use the most battery.</p>
+
+<h2 id="data">2. Information the app uses</h2>
+<p>The table below lists everything the app handles. "On device" means it is stored in the app's private storage on your phone and is <strong>not sent to us</strong> or to anyone else by the app.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Information</th><th>What it is for</th><th>Where it goes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Information"><strong>Battery information</strong>: level, charging state, charger type (wall, USB, wireless), voltage, current, temperature, health status and cycle count where your phone reports them</td><td data-label="What it is for">Showing live charging speed, time to full, diagnostics and alerts</td><td data-label="Where it goes">On device only</td></tr>
+    <tr><td data-label="Information"><strong>Charging history</strong>: start and end time, battery levels and charging speed samples for each charge</td><td data-label="What it is for">History, charging curves, battery-care score, improving "time to full" estimates</td><td data-label="Where it goes">On device only</td></tr>
+    <tr><td data-label="Information"><strong>Cable test results</strong>, including the names you type for each cable or charger</td><td data-label="What it is for">Ranking your cables and chargers</td><td data-label="Where it goes">On device only. Names are never uploaded. If you tap Share, the ranking is handed to the app you choose.</td></tr>
+    <tr><td data-label="Information"><strong>Battery level log while unplugged</strong></td><td data-label="What it is for">The drain graph and "time left" estimate in Smart hibernate</td><td data-label="Where it goes">On device only</td></tr>
+    <tr><td data-label="Information"><strong>Your settings</strong>: alarm level, alerts on/off, display style, rated battery capacity, the list of apps you marked "Never stop"</td><td data-label="What it is for">Remembering your choices</td><td data-label="Where it goes">On device only</td></tr>
+    <tr><td data-label="Information"><strong>App usage times</strong> (names of apps and how long each was used), only if you switch on <em>Usage access</em></td><td data-label="What it is for">Smart hibernate: ranking apps by estimated battery use</td><td data-label="Where it goes">Read and shown on your phone. Not stored by us and not uploaded.</td></tr>
+    <tr><td data-label="Information"><strong>Device and advertising information</strong> collected by the Google Mobile Ads SDK</td><td data-label="What it is for">Showing and measuring ads</td><td data-label="Where it goes">Sent to Google. See <a href="#ads">section 4</a>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>ChargeLens does <strong>not</strong> collect your name, email address, phone number, contacts, messages, photos, files, precise location, microphone or camera recordings, or any payment information.</p>
+
+<h2 id="permissions">3. Permissions and why the app asks for them</h2>
+<p>Android shows some of these permissions to you directly. Features that need a permission simply stay off until you allow it.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Permission"><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>)</td><td data-label="Why it is needed">Charge alerts, the "battery full, unplug" notice, the overheating warning, the unplug-guard alarm, and the live charging-speed notification.</td></tr>
+    <tr><td data-label="Permission"><strong>Run a foreground service</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code>)</td><td data-label="Why it is needed">Keeps the small ongoing notification up to date and records charging sessions while the app is closed. You can turn it off in Settings. Android shows it as a notification.</td></tr>
+    <tr><td data-label="Permission"><strong>Start at boot</strong> (<code>RECEIVE_BOOT_COMPLETED</code>)</td><td data-label="Why it is needed">Restarts that notification after you restart your phone, if you left it on.</td></tr>
+    <tr><td data-label="Permission"><strong>Full-screen notifications</strong> (<code>USE_FULL_SCREEN_INTENT</code>)</td><td data-label="Why it is needed">Optional: opens the charging display over the lock screen when you plug in. Off by default.</td></tr>
+    <tr><td data-label="Permission"><strong>Vibrate</strong> (<code>VIBRATE</code>)</td><td data-label="Why it is needed">Vibrates with the unplug-guard alarm.</td></tr>
+    <tr><td data-label="Permission"><strong>Usage access</strong> (<code>PACKAGE_USAGE_STATS</code>)</td><td data-label="Why it is needed">Optional: lets Smart hibernate see how long each app was used, to estimate which apps drain the battery. You grant this yourself in Android settings and can withdraw it at any time. The information is used on your phone only.</td></tr>
+    <tr><td data-label="Permission"><strong>End background processes</strong> (<code>KILL_BACKGROUND_PROCESSES</code>)</td><td data-label="Why it is needed">Lets the "Stop" buttons in Smart hibernate end other apps' background activity when you ask. It cannot force-stop an app.</td></tr>
+    <tr><td data-label="Permission"><strong>Internet and network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>)</td><td data-label="Why it is needed">Used only to load ads. The app does not upload your battery data.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Features that use your phone but need no permission</h3>
+<ul>
+  <li><strong>Flashlight button</strong> on the charging display turns your phone's torch on and off. ChargeLens does not take photos or video, and cannot see what the camera sees. The camera button only opens your phone's own camera app.</li>
+  <li><strong>Spoken alerts</strong> (optional, off by default) use your phone's built-in text-to-speech to read a short battery message aloud. The message is created on your phone.</li>
+</ul>
+
+<h2 id="ads">4. Advertising (Google AdMob)</h2>
+<p>ChargeLens is free and supported by ads. Ads are provided by <strong>Google AdMob</strong> through the Google Mobile Ads SDK. To show, measure and protect against fraud in ads, Google may collect and use information such as:</p>
+<ul>
+  <li>your <strong>advertising ID</strong> and other device identifiers;</li>
+  <li>your <strong>IP address</strong> and the approximate location that can be worked out from it;</li>
+  <li>device and app information (for example device model, operating system version, app name and version, language);</li>
+  <li>how you interact with ads (shown, tapped, closed).</li>
+</ul>
+<p>This information goes straight from the Google SDK to Google. We do not receive it and we cannot see it. Google's use of it is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+
+<h3>Your advertising choices</h3>
+<ul>
+  <li>On Android, open <strong>Settings → Google → Ads</strong> (the exact path can vary by phone) to <strong>opt out of ads personalisation</strong> or to <strong>reset or delete your advertising ID</strong>.</li>
+  <li>You can also manage ad settings at <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>.</li>
+  <li>In regions where consent applies, use <strong>Settings → Ad privacy choices</strong> in the app to review or withdraw your consent.</li>
+  <li>Opting out does not remove ads; it makes them less tailored to you.</li>
+</ul>
+<h3>Where ads appear</h3>
+<ul>
+  <li><strong>Banner ads</strong> at the bottom of the main screens (Meter, Cables, Diagnose, History and Smart hibernate).</li>
+  <li><strong>Occasional full-screen ads</strong> at natural pauses, such as after a cable test, when you leave a charge replay, or when you leave Smart hibernate after stopping an app. They are limited to a few per session, never at app start and never right after you change a setting.</li>
+  <li><strong>Optional rewarded videos</strong>: you can choose to watch one to unlock the Tornado and Heart charging screens for 24 hours. This is always your choice.</li>
+  <li>We never show ads on your lock screen, in the charging display or in notifications.</li>
+</ul>
+
+<h3>Your consent (EEA, UK and similar regions)</h3>
+<p>Where the law requires it, ChargeLens asks for your consent before any ad is requested, using Google's <strong>User Messaging Platform</strong>. You can choose to allow or limit personalised ads. If you decline, ads may still appear but will not be personalised. You can change your choice at any time with <strong>Ad privacy choices</strong> in the app's Settings (shown where consent applies).</p>
+
+<h2 id="sharing">5. Sharing and selling</h2>
+<ul>
+  <li>We <strong>do not sell</strong> your personal information and we do not share it for advertising purposes ourselves.</li>
+  <li>The only third party that receives information because you use the app is <strong>Google</strong>, through the AdMob SDK described above.</li>
+  <li>If you tap <strong>Share ranking</strong>, the text of your cable ranking is passed to the app you pick. We do not see what you do with it.</li>
+  <li>We may disclose information if the law requires it. Because we hold no personal data about you on any server, there is normally nothing to disclose.</li>
+</ul>
+
+<h2 id="storage">6. Storage, backup and deletion</h2>
+<ul>
+  <li><strong>Where it lives:</strong> history, cable tests and settings are kept in the app's private storage on your phone. Other apps cannot read them.</li>
+  <li><strong>Backup:</strong> if you have turned on Google's Android backup for your phone, Android may include this app's data in your backup and restore it on a new phone. That is controlled by your phone and Google account settings, not by us.</li>
+  <li><strong>How long we keep it:</strong> the app keeps your most recent charging sessions (up to 60) and cable tests (up to 40). Older ones are replaced automatically.</li>
+  <li><strong>Delete it yourself:</strong> in the app, go to <strong>History → Settings → Your data</strong> and tap <em>Clear charging history</em> or <em>Clear cable tests</em>. <strong>Uninstalling</strong> the app, or choosing <em>Clear storage</em> in Android's app settings, removes everything the app stored.</li>
+</ul>
+
+<h2 id="security">7. Security</h2>
+<p>Because your battery information stays on your device and is not sent to us, the main protection is Android's own app sandbox, which keeps other apps from reading it. No method of storage is perfectly secure, but we keep the amount of information the app handles small on purpose. Information sent to Google for ads is protected by Google's security measures.</p>
+
+<h2 id="children">8. Children</h2>
+<p>ChargeLens is a general-audience utility app and is <strong>not directed to children under 13</strong> (or under the minimum age in your country). We do not knowingly collect personal information from children. If you are a parent or guardian and believe a child has given information to us, contact us and we will help. Parents can limit ad personalisation for a child's device in Google's family and ad settings.</p>
+
+<h2 id="rights">9. Your rights and choices</h2>
+<p>Depending on where you live (for example the European Economic Area, the United Kingdom, California and other regions), you may have rights to access, correct, delete or restrict the use of personal information, to object to certain uses, and to withdraw consent.</p>
+<ul>
+  <li>For information the app keeps on your phone, you already have full control: view it in the app, delete it as described in <a href="#storage">section 6</a>, and withdraw any permission in Android settings.</li>
+  <li>We hold no personal data about you on our own systems, so there is nothing for us to look up or delete there. If you contact us, we will tell you so and point you to the right controls.</li>
+  <li>For information Google collects through ads, use <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">your Google Account data and privacy controls</a> or the ad choices in <a href="#ads">section 4</a>.</li>
+  <li>You may also complain to your local data protection authority.</li>
+  <li>We do not sell or "share" personal information as those terms are defined in California law.</li>
+</ul>
+
+<h2 id="transfers">10. International processing</h2>
+<p>Google may process advertising information in countries other than your own, including the United States, under the safeguards described in Google's policies. ChargeLens itself does not transfer your data anywhere.</p>
+
+<h2 id="changes">11. Changes to this policy</h2>
+<p>If we change how the app works with your information (for example by adding a new feature that uses a new kind of data), we will update this page and the "Last updated" date at the top. For significant changes we will also tell you in the app or in the Google Play update notes. Please check back from time to time.</p>
+
+<h2 id="contact">12. Contact us</h2>
+<p>Questions, requests or concerns about this policy or about privacy in ChargeLens:</p>
+<p>
+  <strong>AliveAppz</strong><br>
+  Email: <a href="mailto:aliveappz@gmail.com">aliveappz@gmail.com</a>
+</p>
+<p>We aim to reply within a reasonable time, usually within a few days.</p>
+
+<footer>
+  © 2026 AliveAppz. ChargeLens is a trademark of its developer. Google, Android and Google Play are trademarks of Google LLC.
+</footer>
+
+</main>
+</body>
+</html>
